@@ -2,8 +2,6 @@
 
 These specialization tracks build directly on the Core Curriculum, moving from foundational literacy into focused methodologies, specialized regional reconstructions, and contemporary applications. Learners are expected to choose one or two tracks aligned with their research interests or creative goals rather than attempting to complete all tracks.
 
-**Track Index:**
-
 - **Indo-European and Deep Comparative Reconstruction** — The technical reconstruction of prehistoric mythic systems and formulaic poetics using historical linguistics, archaeology, and comparative philology.
 - **Structural Analysis and the Morphology of Narrative** — Formalist, semiotic, and structuralist methodologies for analyzing myth, folktale, and narrative grammar as rule-governed symbolic systems.
 - **Myth, Ritual, and Sacrificial Violence** — The generative relationship between mythic narratives and ritual practices, focusing on the anthropological mechanisms of sacred violence and scapegoating.
