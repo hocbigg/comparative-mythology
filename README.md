@@ -1,8 +1,31 @@
-# Comparative Mythology — Core Curriculum
+---
+title: Hocbigg - Comparative Mythology
+description: Path to a free self-taught education in Comparative Mythology.
+---
 
-This curriculum covers the foundational subjects required for systematic comparative study across cultures. The subjects progress from universal definitions and structural typologies, through the foundational Mediterranean and non-Mediterranean mythic corpora, to the modern theoretical frameworks that make rigorous cross-cultural analysis possible.
+## Introduction
 
-## Introduction to Mythology
+Comparative mythology investigates the recurring stories, sacred symbols, and narrative structures across human cultures. Rather than treating ancient tales as isolated curiosities or primitive fables, the discipline analyzes how distinct societies confront shared existential problems: how the universe emerged from chaos, why human beings suffer and die, how order is maintained against destruction, and what defines the heroic quest. By comparing narratives across geographical and linguistic boundaries, comparativists identify shared historical inheritances, structural universals, and the unique psychological functions myth serves within human communities.
+
+This curriculum is designed for independent, self-directed learners with no prior background in classics, anthropology, or ancient languages. It establishes an undergraduate-level foundation through open-access textbooks, university lecture series, and public-domain primary sources, avoiding materials that require institutional access or academic prerequisites.
+
+### How to Move Through the Curriculum
+
+The curriculum follows a deliberate sequence that prioritizes textual literacy before theoretical abstraction:
+
+- **Definitions before corpora:** You begin by distinguishing myth from related narrative genres (such as folklore, legend, and religious dogma) and learning the universal typology of mythic motifs, from cosmogonies and tricksters to flood myths and heroic descents.
+- **Narratives before theory:** A frequent beginner mistake is jumping directly into interpretive frameworks—such as Jungian archetypes or Campbell's monomyth—without knowing the source texts. The second and third modules immerse you directly in primary narrative traditions: first the classical Greco-Roman foundation, followed by its critical comparative counterparts in ancient Mesopotamia and pre-Christian Scandinavia. You may study the Classical and Near Eastern/Norse modules either in sequence or side-by-side, but both should be completed before attempting theoretical interpretation.
+- **Theory as critical synthesis:** The final module introduces modern interpretive frameworks (psychological, structuralist, ritualist, and functionalist). Engaging these frameworks after you have read the primary texts enables you to evaluate theoretical claims critically against concrete source material rather than accepting them as dogma.
+
+### Scope
+
+This core guide covers only the essential baseline: the universal typologies, primary Mediterranean and Northern European narrative corpuses, and foundational analytical methods that every learner in the discipline needs.
+
+Once you complete this foundational core, you can explore specialized subfields — such as Indo-European linguistic reconstruction, structural morphology, sacrificial violence, and depth psychology—in [Advanced Topics](advanced_topics.md).
+
+## Curriculum
+
+### Introduction to Mythology
 
 Covers foundational definitions distinguishing myth from folklore, legend, and religion, alongside recurring cross-cultural archetypes including creation myths, flood narratives, tricksters, and heroic journeys.
 
@@ -10,7 +33,7 @@ Covers foundational definitions distinguishing myth from folklore, legend, and r
 
 [World Mythology: An Anthology of the Great Myths and Epics (Donna Rosenberg)](https://books.google.com/books?isbn=9780844259666) - Serves as a complementary primary-source reading anthology to accompany the video lectures, providing full regional texts from Africa, the Americas, Asia, and Europe.
 
-## Classical Mythology
+### Classical Mythology
 
 Explores the ancient Greek and Roman mythological traditions in depth, covering Olympian pantheons, cosmogony, heroic cycles, and the literary transmission of myth in classical antiquity.
 
@@ -22,7 +45,7 @@ Explores the ancient Greek and Roman mythological traditions in depth, covering 
 
 [Metamorphoses (Ovid / trans. Sir Samuel Garth, John Dryden, et al.)](https://classics.mit.edu/Ovid/metam.html) - Canonical Roman epic compilation of transformation myths; read selected books (such as Books I, VIII, and XV) as complementary primary literature following the Greek texts.
 
-## Comparative World Corpora: Ancient Near East and Northern Europe
+### Comparative World Corpora: Ancient Near East and Northern Europe
 
 Examines key non-classical comparative corpora through ancient Mesopotamian and Old Norse narrative sources, focusing on creation myths, divine conflicts, the heroic quest for immortality, and apocalyptic eschatology.
 
@@ -36,7 +59,7 @@ Examines key non-classical comparative corpora through ancient Mesopotamian and 
 
 [The Poetic Edda (trans. Henry Adams Bellows)](https://www.gutenberg.org/ebooks/73533) - The older poetic source collection in alliterative verse; read key poems such as Völuspá and Hávamál as a poetic complement to Snorri's prose handbook.
 
-## Theories of Myth
+### Theories of Myth
 
 Surveys major modern scholarly frameworks for interpreting and comparing myths across cultures, including psychological, structuralist, functionalist, ritualist, and archetypal approaches.
 
