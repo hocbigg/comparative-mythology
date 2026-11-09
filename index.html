@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Hocbigg - Comparative Mythology</title>
+  <meta name="description" content="Path to a free self-taught education in Comparative Mythology.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/comparative-mythology/">
+  <meta property="og:title" content="Hocbigg - Comparative Mythology">
+  <meta property="og:description" content="Path to a free self-taught education in Comparative Mythology.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/comparative-mythology/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/comparative-mythology/">Comparative Mythology</a></li>
+      <li><a href="/comparative-mythology/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="https://github.com/hocbigg/comparative-mythology" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+<header class="page-header">
+  <img src="/images/logo.png" alt="Hocbigg logo">
+  <h1>Hocbigg - Comparative Mythology</h1>
+  <p class="page-subtitle">Path to a free self-taught education in Comparative Mythology.</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-10-04">2026-10-04</time></small></p>
+</header>
+<h2 id="introduction">Introduction</h2>
+<p>Comparative mythology investigates the recurring stories, sacred symbols, and narrative structures across human cultures. Rather than treating ancient tales as isolated curiosities or primitive fables, the discipline analyzes how distinct societies confront shared existential problems: how the universe emerged from chaos, why human beings suffer and die, how order is maintained against destruction, and what defines the heroic quest. By comparing narratives across geographical and linguistic boundaries, comparativists identify shared historical inheritances, structural universals, and the unique psychological functions myth serves within human communities.</p>
+<p>This curriculum is designed for independent, self-directed learners with no prior background in classics, anthropology, or ancient languages. It establishes an undergraduate-level foundation through open-access textbooks, university lecture series, and public-domain primary sources, avoiding materials that require institutional access or academic prerequisites.</p>
+<h3 id="how-to-move-through-the-curriculum">How to Move Through the Curriculum</h3>
+<p>The curriculum follows a deliberate sequence that prioritizes textual literacy before theoretical abstraction:</p>
+<ul>
+<li><strong>Definitions before corpora:</strong> You begin by distinguishing myth from related narrative genres (such as folklore, legend, and religious dogma) and learning the universal typology of mythic motifs, from cosmogonies and tricksters to flood myths and heroic descents.</li>
+<li><strong>Narratives before theory:</strong> A frequent beginner mistake is jumping directly into interpretive frameworks—such as Jungian archetypes or Campbell's monomyth—without knowing the source texts. The second and third modules immerse you directly in primary narrative traditions: first the classical Greco-Roman foundation, followed by its critical comparative counterparts in ancient Mesopotamia and pre-Christian Scandinavia. You may study the Classical and Near Eastern/Norse modules either in sequence or side-by-side, but both should be completed before attempting theoretical interpretation.</li>
+<li><strong>Theory as critical synthesis:</strong> The final module introduces modern interpretive frameworks (psychological, structuralist, ritualist, and functionalist). Engaging these frameworks after you have read the primary texts enables you to evaluate theoretical claims critically against concrete source material rather than accepting them as dogma.</li>
+</ul>
+<h3 id="scope">Scope</h3>
+<p>This core guide covers only the essential baseline: the universal typologies, primary Mediterranean and Northern European narrative corpuses, and foundational analytical methods that every learner in the discipline needs.</p>
+<p>Once you complete this foundational core, you can explore specialized subfields — such as Indo-European linguistic reconstruction, structural morphology, sacrificial violence, and depth psychology—in <a href="advanced_topics.html">Advanced Topics</a>.</p>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="introduction-to-mythology">Introduction to Mythology</h3>
+<p>Covers foundational definitions distinguishing myth from folklore, legend, and religion, alongside recurring cross-cultural archetypes including creation myths, flood narratives, tricksters, and heroic journeys.</p>
+<p><a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtNCG9Vq7vdvJytS-F-xGi7_" target="_blank" rel="noopener noreferrer">Crash Course World Mythology (CrashCourse / Mike Rugnetta)</a> - Primary 41-episode video lecture series that introduces global archetypes, motifs, and comparative structures across world traditions.</p>
+<p><a href="https://books.google.com/books?isbn=9780844259666" target="_blank" rel="noopener noreferrer">World Mythology: An Anthology of the Great Myths and Epics (Donna Rosenberg)</a> - Serves as a complementary primary-source reading anthology to accompany the video lectures, providing full regional texts from Africa, the Americas, Asia, and Europe.</p>
+<h3 id="classical-mythology">Classical Mythology</h3>
+<p>Explores the ancient Greek and Roman mythological traditions in depth, covering Olympian pantheons, cosmogony, heroic cycles, and the literary transmission of myth in classical antiquity.</p>
+<p><a href="https://www.coursera.org/learn/mythology" target="_blank" rel="noopener noreferrer">Greek and Roman Mythology (University of Pennsylvania / Peter Struck)</a> - Primary structured lecture course guiding learners through Greek and Roman mythic texts, religious context, and modern interpretative frameworks; audit the course for free.</p>
+<p><a href="https://uen.pressbooks.pub/mythologyunbound/" target="_blank" rel="noopener noreferrer">Mythology Unbound: An Online Textbook for Classical Mythology (Jessica Mellenthin &amp; Susan O. Shapiro)</a> - An open-access reading textbook providing deity-by-deity reference profiles and narrative overviews that complement the video lectures.</p>
+<p><a href="https://www.theoi.com/Text/HesiodTheogony.html" target="_blank" rel="noopener noreferrer">Theogony (Hesiod / trans. H. G. Evelyn-White)</a> - Foundational Greek primary text for cosmogony and divine succession; read this early alongside the course modules on creation myths.</p>
+<p><a href="https://classics.mit.edu/Ovid/metam.html" target="_blank" rel="noopener noreferrer">Metamorphoses (Ovid / trans. Sir Samuel Garth, John Dryden, et al.)</a> - Canonical Roman epic compilation of transformation myths; read selected books (such as Books I, VIII, and XV) as complementary primary literature following the Greek texts.</p>
+<h3 id="comparative-world-corpora-ancient-near-east-and-northern-europe">Comparative World Corpora: Ancient Near East and Northern Europe</h3>
+<p>Examines key non-classical comparative corpora through ancient Mesopotamian and Old Norse narrative sources, focusing on creation myths, divine conflicts, the heroic quest for immortality, and apocalyptic eschatology.</p>
+<p><a href="https://www.coursera.org/learn/old-norse-mythology-sources" target="_blank" rel="noopener noreferrer">Old Norse Mythology in the Sources (University of Colorado Boulder / Mathias Nordvig)</a> - Structured lecture course surveying the historical and literary transmission of pre-Christian Scandinavian myths; audit the course for free alongside the primary source readings.</p>
+<p><a href="https://www.ancienttexts.org/library/mesopotamian/gilgamesh/" target="_blank" rel="noopener noreferrer">The Epic of Gilgamesh (trans. Maureen Gallery Kovacs)</a> - Core ancient Near Eastern primary text on mortality, friendship, and the flood motif, providing a free full-text translation of the standard Babylonian epic.</p>
+<p><a href="https://books.google.com/books?isbn=9780140449198" target="_blank" rel="noopener noreferrer">The Epic of Gilgamesh (trans. Andrew George)</a> - An authoritative modern verse translation with comprehensive introductory analysis; read as a modern print alternative to the free Kovacs edition above.</p>
+<p><a href="https://www.gutenberg.org/ebooks/18947" target="_blank" rel="noopener noreferrer">The Younger Edda (Snorri Sturluson / trans. Rasmus B. Anderson)</a> - The primary prose handbook of Old Norse mythology; read this first among the Scandinavian texts to understand the cosmological architecture and divine narratives.</p>
+<p><a href="https://www.gutenberg.org/ebooks/73533" target="_blank" rel="noopener noreferrer">The Poetic Edda (trans. Henry Adams Bellows)</a> - The older poetic source collection in alliterative verse; read key poems such as Völuspá and Hávamál as a poetic complement to Snorri's prose handbook.</p>
+<h3 id="theories-of-myth">Theories of Myth</h3>
+<p>Surveys major modern scholarly frameworks for interpreting and comparing myths across cultures, including psychological, structuralist, functionalist, ritualist, and archetypal approaches.</p>
+<p><a href="https://books.google.com/books?isbn=9780198724704" target="_blank" rel="noopener noreferrer">Myth: A Very Short Introduction (Robert A. Segal)</a> - Core introductory textbook that systematically compares and tests all major modern theories of myth against a single test narrative.</p>
+<p><a href="https://www.gutenberg.org/ebooks/3623" target="_blank" rel="noopener noreferrer">The Golden Bough (James George Frazer)</a> - Historical primary text of the comparative ritualist and "dying god" school; read selected introductory chapters alongside Segal's modern critique rather than tackling the entire volume.</p>
+<p><a href="https://www.pbs.org/show/joseph-campbell-and-the-power-of-myth-with-bill-moyers" target="_blank" rel="noopener noreferrer">Joseph Campbell and The Power of Myth with Bill Moyers (PBS)</a> - A six-part video interview series serving as an accessible audiovisual exploration of the monomyth and archetypal theory to complement Segal's academic analysis.</p>
+    </article>
+  </main>
+
+</body>
+</html>
